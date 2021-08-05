@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-7">
+      <p id="header">
+	I/O ANALYTIX is analysis platform for social media data analysis</p>
+      <p class="text-center" id="subheader">Get instant access to brand mention across social platforms news, blogs, videos, fourms, reviews and more </p>
+    </div>
+    <div class="col-5">
+      <img width="500px" src="{{ url_for('static', filename='images/header.png') }}">
+    </div>
+  </div>
+</div>
+
+<div id="about" class="container-flued">
+  <img width="130px" class="center-block" src="{{ url_for('static', filename='images/sprater.png') }}">
+  <p id="aboutparagraph" class="text-center">
+    You're in <b>good company</b>
+  </p>
+  
+  <img width="130px" class="center-block" src="{{ url_for('static', filename='images/sprater.png') }}">
+</div>
+
+<p id="trackpara" class="text-center">
+  Track, Measure and report on your social campaigns endless times
+</p>
+
+<div id="feature" class="container">
+  <div class="row">
+    <div class="col align-self-center">
+      <p class="text-center">
+	1. Track Data Accurately
+      </p>
+    </div>
+    <div class="col">
+      <p class="text-center">
+	2. Measure Every Metric
+      </p>
+    </div>
+    <div class="col">
+      <p class="text-center">
+	3. Prove Campaign Impact & ROI
+      </p>
+    </div>
+    <div class="col">
+      <p class="text-center">
+	4. Report On Time, EveryTime
+      </p>
+    </div>
+  </div>
+  
+</div>
+
+
+<div class="container tile">
+  <div class="row">
+    <div class="col-7" style="padding-top:75px">
+      <p class="text-center fetu textcenter">
+<h4>Protect your online reputation </h4>
+Follow up on positive comments from your brand ambassadors & respond to a dissatisfied customer before the story gets ahead of you 
+	<br>
+	<br>
+<h5>Automated Sentiment analysis</h5>
+ We use advanced sentiment detection to segment positive, negative and neutral mentions. 
+	<br>
+	<br>
+	<h5>Instant Notification</h5>
+Get instant alerts for negative mentions and engage key conversations before it's too late.
+      </p>
+    </div>
+    <div class="col-5">
+      <img width="500px" src="{{ url_for('static', filename='images/1.png') }}">
+    </div>
+  </div>
+</div>
+
+<div class="container tile">
+  <div class="row">
+    <div class="col-6">
+      <img width="500px" src="{{ url_for('static', filename='images/2.png') }}">
+    </div>
+    <div class="col-6" style="padding-top:130px">
+      <p class="text-center fetu textcenter">
+<h4>Hashtag Tracking </h4>
+Track various hashtags and find influencers. Measure the effects of a hashtag campaign, like Reach and Engagement 
+	<br>
+	<br>
+<h5>Hashtag Reach</h5>
+Access important hashtag metrics 
+	<br>
+	<br>
+	<h5>Hashtag Volume</h5>
+Measure number of mentions with a hashtag
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container tile">
+  <div class="row">
+    <div class="col-6">
+      <p class="text-center fetu textcenter" >
+<h4>Protect your online reputation </h4>
+Follow up on positive comments from your brand ambassadors & respond to a dissatisfied customer before the story gets ahead of you 
+	<br>
+	<br>
+<h5>Automated Sentiment analysis</h5>
+ We use advanced sentiment detection to segment positive, negative and neutral mentions. 
+	<br>
+	<br>
+	<h5>Instant Notification</h5>
+Get instant alerts for negative mentions and engage key conversations before it's too late.
+      </p>
+    </div>
+    <div class="col-6">
+      <img width="500px" src="{{ url_for('static', filename='images/3.png') }}">
+    </div>
+  </div>
+</div>	
+<br>
+
+
+{% endblock %}

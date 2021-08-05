@@ -1,0 +1,64 @@
+* Questions
+** Is User can see Original Content?
+* TODO Database
+** TODO Data Schema
+   (Platform), Beta(Platform)
+* TODO Database Module
+  is it necessary?
+** DONE Get List of Clean Tweets or Posts
+** 
+* TODO Text Processing Module
+** DONE Get Aspects Related Words
+** DONE PreProcessing
+*** DONE Cleaning
+**** DONE Text Correction
+***** DONE don't remove punctuation
+***** DONE Don't correct Emoticons
+***** DONE correct words like "goooooooooooooood"
+**** DONE Removing URLs
+*** DONE Language Detection
+*** DONE Translating
+** TODO Sentence Tokenization
+* TODO APIs Module
+** DONE Twitter API
+*** DONE Search With Keyword
+*** DONE User Tweets
+** TODO Mastodon API
+*** TODO Search With Keyword
+*** TODO User Tweets
+** TODO Reddit API
+*** TODO Search With Keyword
+** TODO Pixelfed API
+*** Search With Keyword
+** TODO Facebook API
+** TODO Instagram
+* DONE Sentiment Analysis Module
+* Documentation
+** DONE Setup Sphinx
+   and Configure it to Produce PDF
+** DONE Setup PlantUML
+** DONE Configure Sphinx with PlanUML and Autodoc
+** TODO Sentiment Analysis Part
+** TODO Sentience Tokenization 
+** TODO Entity Relationship Diagram (ERD) for Database
+*** Tools to auto Generate the ERD 
+**** mongo-auto-erd (https://github.com/leonardodalcin/mongo-auto-erd)
+**** Moon Modeler (https://www.datensen.com/data-modeling/moon-modeler-for-databases.html)
+* Website (Flask)
+** Front-end
+*** TODO Visualize The Summary Data in Charts
+    Using D3js Library
+** Back-end
+*** DONE Search in list of Tweets
+    MongoDB Query Language
+    Try in MongoDB First
+*** DONE Getting Score of Each Tweet in List
+*** TODO User Management System(Registration and Login)
+**** User History
+**** User Bookmark
+     Allow User To bookmark Words that Most important To him as he need to monitor it frequently
+*** TODO Scores List Summary
+    Return json data That Contain Summary of The Scores in Total and Each Category or topic
+* Others
+** DONE Uploading to Git Host
+** DONE Write README File
